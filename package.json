@@ -27,5 +27,8 @@
     "element",
     "name",
     "babel-plugin"
+  ],
+  "files": [
+    "lib/*"
   ]
 }
