@@ -1,5 +1,5 @@
 {
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "This plugin makes sure that your custom elements always have a name property, even after minifying.",
   "repository": "github/babel-plugin-ensure-name-for-custom-elements",
   "name": "babel-plugin-ensure-name-for-custom-elements",
