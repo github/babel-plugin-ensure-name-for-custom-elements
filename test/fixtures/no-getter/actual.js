@@ -1,0 +1,1 @@
+class FooElement extends HTMLElement { }
