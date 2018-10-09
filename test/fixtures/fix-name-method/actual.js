@@ -1,17 +1,17 @@
 class FooElement extends HTMLElement {
   get name() {
-    return "FooElement"
+    return "FooElement";
   }
 }
 
 class BarElement extends HTMLElement {
   name() {
-    return "BarElement"
+    return "BarElement";
   }
 }
 
 class BazElement extends HTMLElement {
   static name() {
-    return "BazElement"
+    return "BazElement";
   }
 }

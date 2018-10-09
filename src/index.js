@@ -1,11 +1,7 @@
-export default function({types: t }) {
-  const messageNoGetter = 'Custom elements need to implement `static get name()`'
-  const messageMultipleStatements = '`static get name()` should only return string'
-  const messageNotMatching = '`static get name()` should return the name of the class'
-
+export default function transform({types: t}) {
   return {
     visitor: {
-      Class: function(path) {
+      Class(path) {
         const node = path.node
         const hasSuperClass = node.superClass
         const superClassIsElement = hasSuperClass && node.superClass.name.endsWith('Element')
@@ -38,5 +34,5 @@ export default function({types: t }) {
         }
       }
     }
-  };
+  }
 }
