@@ -7,7 +7,6 @@ This plugin makes sure that your custom elements always have a name property, ev
 **In**
 
 ```js
-// input code
 class FooElement extends HTMLElement { }
 ```
 
