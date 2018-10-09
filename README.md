@@ -14,8 +14,6 @@ class FooElement extends HTMLElement { }
 **Out**
 
 ```js
-"use strict";
-
 class FooElement extends HTMLElement {
   static get name() {
     return "FooElement";
