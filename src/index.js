@@ -29,7 +29,6 @@ export default function transform({types: t}) {
           getter.body.body[0].argument.value !== node.id.name
         ) {
           getter.kind = 'get'
-          //getter.static = true
           getter.body.body = [t.returnStatement(t.stringLiteral(node.id.name))]
         }
       }
